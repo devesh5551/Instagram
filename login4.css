@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(218, 183, 118);
+}
+main{
+    margin: 50px 35% 20px 35%;
+    min-width: 400px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 30%;
+    background-color: white;
+    font-family: var(font-family)
+    
+}
+main>div{
+    margin: 2px solid black;
+    /* height: 80vh; */
+    font-weight: bold;
+    width: 100%;
+    position: relative;
+    /* justify-content: space-between;
+     */
+}
+main>div>input{
+    display: flex;
+    width: 80%;
+    margin: 10%;
+}
+main>div>i{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+main>div{
+    margin: 5%;
+    
+    /* justify-content: space-between; */
+    
+}
+main>div>#welcome{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    background-color: white;
+    justify-content: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #fab005;
+    height: 40px;
+}
+
+main>div>#smile{
+    margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#smile>img{
+    height: 70px;
+    margin: 10px;
+}
+main>div>h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+main>div>p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 10px;
+}
+
+main>div>label{
+    margin: 20px 0px 5px 8%;
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+}
+ 
+#checkbox{
+    margin: 5px 5%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+#checkbox>div{
+    display: flex;
+    justify-content: left;
+    margin-right: 15%;
+}
+#checkbox>div>a{
+    display: flex;
+    color: black;
+    text-decoration: none;
+}
+#email, #password{
+    display: flex;
+    position: relative;
+    width: 85%;
+    margin:10px  0px 20px 8%;
+    height: 30px;
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+#email>input, #password>input{
+    display: flex;
+    padding: 5px 20%;
+    margin: 10px 0px;
+    height: 35px;
+    width: 100%;
+    border: 1px  solid  black;
+    border-radius: 10px;
+    /* border-radius: 10px; */
+}
+#email>i, #password>i{
+    display: flex;
+    position: absolute;
+    left: 8%;
+}
+
+#checkbox>a{
+    display: flex;
+    justify-content: end;
+}
+main>div>button{
+    border-radius: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin: 10%;
+    width: 80%;
+    background-color: #fab005;
+}
+main>div>button>i{
+    margin: 10px;
+    font-size: large;
+}
+body>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
